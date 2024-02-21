@@ -3,7 +3,7 @@ import pyodbc
 server = 'localhost'
 database = 'Northwind'
 username = 'sa'
-password = 'Colombia4$'
+password = ''
 
 #TODO: Crear la cadena de conexion 
 conn_str = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}'
