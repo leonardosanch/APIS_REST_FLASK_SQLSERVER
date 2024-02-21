@@ -5,7 +5,7 @@ from sqlalchemy import text
 app = Flask(__name__)
 
 nombre_usuario = 'sa'
-contrasena = 'Colombia4$'
+contrasena = ''
 nombre_servidor ='localhost'
 nombre_base_de_datos = 'Northwind'
 driver_odbc = 'ODBC+Driver+17+for+SQL+Server'
